@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let year = parseInt(prompt("Nhập 1 năm "));
+    if (year % 4 == 0) {
+    if (year % 100 == 0) {
+        if (year % 400 == 0) {
+            alert(year + "nam nhuan");
+        }
+    } }
+    else {
+        alert(year + "nam khong nhuan");
+    }
+    if (year % 100 == 0 && year % 400 != 0){
+        alert (year + "nam khong nhuan")
+    }
+    if ( year % 4 ==0 && year %100 != 0){
+        alert ( year + "nam nhuan")
+    }
+    if ( year %4 == 0 && year %400 != 0){
+        alert (year + "nam nhuan")
+    }
+</script>
+    </body>
+    </html>
